@@ -6,7 +6,7 @@ const Navbar = () => {
                     <div className="flex justify-between w-full items-center">
                         <p>Bianca Giandebiaggi</p>
                         <div className="hidden md:block">
-                            <div className="ml-10 flex items-baseline space-x-4">
+                            <div className="flex items-baseline space-x-4">
                                 <a className="t-blue hover:text-gray-700 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="#about" rel="noreferrer">About Me</a>
                                 {/*<a className="t-indigo hover:text-gray-700 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="#portfolio">Portfolio</a>*/}                                
                                 <a className="t-violet hover:text-gray-700 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="#contact" rel="noreferrer">Contact</a>
