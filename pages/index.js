@@ -26,7 +26,7 @@ export default function Home() {
         <main>
             <Head>
                 <title>Bianca Giandebiaggi</title>
-                <meta name="description" content="Social Media Content, Translater and many more" />
+                <meta name="description" content="Social Media Content, Traduttice professionale e molto altro" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <>
