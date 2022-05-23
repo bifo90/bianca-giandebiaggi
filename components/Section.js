@@ -13,8 +13,8 @@ const Section = (props) => {
         
                 <div className="mt-10">
                     <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                        {props.data.map((feature,i) => (
-                            <div key={i} className="relative">
+                        {props.data.map(feature => (
+                            <div key={feature} className="relative">
                                 <dt>
                                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-400 text-white">
                                     
