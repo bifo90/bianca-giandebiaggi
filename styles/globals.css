@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.t-blue {
+  @apply text-blue-400;
+}
+.t-violet {
+  @apply text-purple-400;
+}
+.t-indigo {
+  @apply text-indigo-400;
+}
+
+
+.js-drop-mobile {
+  display: none;
+}
+.js-drop-mobile.active {
+  display: block;
+}
