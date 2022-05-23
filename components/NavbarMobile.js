@@ -8,7 +8,7 @@ const NavbarMobile = () => {
             <nav className="fixed top-0 left-0 w-full z-10 bg-white">
                 <div className="px-4 md:px-8">
                     <div className="flex items-center justify-between h-16">
-                        <a href="/#">Bianca Giandebiaggi</a>
+                        <p>Bianca Giandebiaggi</p>
                         {/* <div className="-mr-2 flex md:hidden">
                             <button className="text-gray-800 hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none" onClick={toggleClick}>
                                 <svg width="20" height="20" fill="currentColor" className="h-8 w-8" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">

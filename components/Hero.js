@@ -13,7 +13,7 @@ const Header = () => {
                         <p className="text-base text-gray-500 sm:text-lg md:text-xl">
                             Definire la Strategia Aziendale. Formare e organizzare le risorse per il Digitale. Corsi di Lingua.</p>
                         <p className="text-base text-gray-500 sm:text-lg md:text-xl lg:mx-0">
-                            Se sei un'azienda, un professionista o uno studente, contattami per un confronto senza impegno.
+                            Se sei un&apos;azienda, un professionista o uno studente, contattami per un confronto senza impegno.
                         </p>
                     </div>
                 </main>
