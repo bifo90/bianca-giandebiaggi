@@ -19,3 +19,24 @@
 .js-drop-mobile.active {
   display: block;
 }
+@font-face {
+    font-family: "Open Sans Light";
+    src: url('./fonts/OpenSans-Light.woff');
+}
+.light {
+    font-family: "Open Sans Light";
+}
+@font-face {
+    font-family: "Open Sans Medium";
+    src: url('./fonts/OpenSans-Medium.woff');
+}
+.medium {
+    font-family: "Open Sans Medium";
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url('./fonts/OpenSans-Bold.woff');
+}
+.bold {
+    font-family: "Open Sans Bold";
+}

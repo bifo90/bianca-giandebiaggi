@@ -1,6 +1,6 @@
 const Section = (props) => {
     return (
-        <div className="pt-12 pb-32 md:pb-48 bg-white" id="about">
+        <div className="w-full h-screen bg-white flex flex-wrap items-center" id="about">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl t-blue">About Me</h2>
