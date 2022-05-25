@@ -11,6 +11,7 @@ import Footer from '../components/Footer';
 import data from '../data/data.js'
 
 export default function Home() {
+
     const [width, setWidth] = useState(769)
     const [isMobile, setIsMobile] = useState(true)
 
@@ -28,7 +29,7 @@ export default function Home() {
                 <meta name="description" content="Social Media Content, Traduttice professionale e molto altro" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <>
+            <div>
                 {!isMobile ? (
                     <Navbar />
                     ) : (
@@ -40,7 +41,7 @@ export default function Home() {
                 {/* <Portfolio data={data_portfolio} /> */}
                 <Contact />
                 <Footer />
-            </>
+            </div>
         </main>
     )
 }
